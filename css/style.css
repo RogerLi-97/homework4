@@ -17,12 +17,9 @@ header,
 }
 
 header img,
-.card {
-    width: 100%;
-}
-
+.card,
 .gallery img {
-    width: calc(100% - 30px)
+    width: 100%;
 }
 
 @keyframes fade {
@@ -49,6 +46,7 @@ header img,
 
     header {
         justify-content: space-between;
+        align-items: center;
     }
 
     .nav_links {
